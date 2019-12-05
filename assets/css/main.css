@@ -120,7 +120,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #7d518e;
+		background-image: linear-gradient(to top, rgba(212, 217, 220), rgba(210, 216, 218)), url(../../images/bg.jpg);
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
@@ -3463,7 +3464,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(108, 48, 128, 0.8)), url("../../images/bg.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3618,6 +3619,7 @@ input, select, textarea {
 		background-color: #2e3141;
 		margin: 6.5em 0;
 		position: relative;
+		background-image: linear-gradient(to top, rgba(210, 216, 218), rgba(210, 216, 218)), url(../../images/bg.jpg);
 	}
 
 		.wrapper:before, .wrapper:after {
@@ -3634,8 +3636,6 @@ input, select, textarea {
 
 		.wrapper:before, .wrapper:after {
 			background-repeat: no-repeat;
-			background-size: 100% 100%;
-			content: '';
 			display: block;
 			height: 6.5em;
 			position: absolute;
@@ -3674,6 +3674,7 @@ input, select, textarea {
 			padding: 3em 0 1em 0 ;
 			margin: 0 auto;
 			width: 55em;
+			background-image: linear-gradient(to top, rgba(210, 216, 218), rgba(210, 216, 218)), url(../../images/bg.jpg);
 		}
 
 		.wrapper.style2 {
@@ -3757,7 +3758,7 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-image: linear-gradient(to top, rgba(210, 216, 218), rgba(210, 216, 218)), url(../../images/bg.jpg);
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
@@ -3785,6 +3786,7 @@ input, select, textarea {
 				-webkit-flex-direction: row;
 				-ms-flex-direction: row;
 				flex-direction: row;
+				background-image: linear-gradient(to top, rgba(210, 216, 218), rgba(210, 216, 218)), url("../../images/bg.jpg");
 			}
 
 			.wrapper.spotlight .image {
@@ -3818,7 +3820,7 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
@@ -4061,7 +4063,7 @@ input, select, textarea {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(124, 80, 141), rgba(210, 216, 218)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
